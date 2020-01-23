@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Youtube Music</title>
+	<link rel="icon" href="log.png" type="imagem/gif"> 
+	<link rel="stylesheet" href="style.css"></link>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+
+	<img id="titulo" src="logotitle.png">
+	<ul id="videos">
+			<li>
+				<a href="maria.mp4">
+					<img id="fotos" src="maria.jpg">
+					<p>Minha Própria Ilusão (EP Bebo e Choro)</p>
+				</a>
+			</li>
+			<li>
+					<a href="ws.mp4">
+						<img id="fotos" src="images.jpg">
+						<p>Juras de Amor (Vai Chorar) - TBT WS</p>
+					</a>
+			</li>
+			<li>
+				<a href="rai.mp4">
+						<img id="fotos" src="rai.jpg">
+						<p>Eu Acho Que Não (Clipe Oficial)</p>
+				</a>
+			</li>
+	</ul>
+	<video id="video" controls crossorigin="anonymous" autoplay>
+			<source src="ws.mp4">
+			</source>
+			<track srclang="en" label="Legenda em Inglês"
+     					kind="subtitles"
+						src="./legendasws.vtt">
+			</track>
+	</video>
+	<h3 id="efec">Video Effects</h3>
+	<button id="btn1" onclick="eft1()">Shades of Gray</button>
+	<button id="btn2" onclick="eft2()">Contrast</button>
+	<button id="btn3" onclick="eft3()">Sepia</button>
+	<button id="btn4" onclick="eft4()">Opacity</button>
+	<button id="btn5" onclick="eft5()">Negate</button>
+	<button id="btn6" onclick="desfazerTudo()">Undo All</button>
+	<h3 id="suma">Summarization</h3>
+	<div id="org">
+		<div id="imgs"></div>
+	</div>
+	<canvas id="c"></canvas>
+	<script type = "text/javascript" src ="index.js"></script>
+</body>
+</html>

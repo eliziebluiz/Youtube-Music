@@ -1,0 +1,156 @@
+body{
+    background-color:rgb(252, 95, 95);
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+ul{
+    list-style-type: none;
+}
+#video{
+    height:480px;
+    width:854px;
+    background-color: black;
+    left:20px;
+    position: relative;
+}
+#videos{
+    position: relative;
+    float: right;
+    right: 70px;
+    top: 48px;
+}
+p{
+    text-align: center;
+}
+#titulo{
+    height: 60px;
+    position: relative;
+    left: 20px;
+    -webkit-filter: invert(100%) ;
+    filter: invert(100%);
+}
+#fotos{
+    width:270px;
+}
+
+#btn1{
+    position: relative;
+    top:-30px;
+    left: 21px;
+    width: 145px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+    background-color: black;
+}
+#btn2{
+    position: relative;
+    top:-30px;
+    left: 21px;
+    width: 135px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+    background-color: black;
+}
+#btn3{
+    position: relative;
+    top:-30px;
+    left: 21px;
+    width: 145px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+    background-color: black;
+}
+#btn4{
+    position: relative;
+    top:-30px;
+    left: 21px;
+    width: 135px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+    background-color: black;
+}
+#btn5{
+    position: relative;
+    top:-30px;
+    left: 21px;
+    width: 135px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+    background-color: black;
+}
+#btn6{
+    position: relative;
+    top:-30px;
+    left: 21px;
+    width: 135px;
+    height: 50px;
+    font-size: 17px;
+    color: black;
+    background-color: white;
+}
+.efeito1{
+    -webkit-filter: grayscale(50%);
+    filter: grayscale(100%);
+}
+.efeito2{
+    -webkit-filter: contrast(100%);    
+    filter:contrast(40%);
+}
+.efeito3{
+    -webkit-filter: sepia(100%);    
+    filter:sepia(100%);
+}
+.efeito4{
+    -webkit-filter: opacity(50%);    
+    filter:opacity(50%);
+}
+.efeito5{
+    -webkit-filter: invert(100%) ;
+    filter: invert(100%);
+}
+#suma{
+    position: relative;
+    top: -30px;
+    width: 1272px;
+    height: 30px;
+    background-color: black;
+    text-align: center;
+    font-size: 25px;
+    color: blanchedalmond;
+}
+#efec{
+    position: relative;
+    top: -15px;
+    width: 854px;
+    height: 30px;
+    left: 20px;
+    background-color: black;
+    text-align: center;
+    font-size: 25px;
+    color: blanchedalmond;
+}
+#c{
+    top: -100px;
+    opacity: 0.0;
+    position: relative;
+}
+
+#imgs{
+    position: relative;
+    top: 2px;
+    left: 8px;
+    border:10px;
+}
+#org{
+    position: relative;
+    top:-50px;
+    width: 1200;
+    background-color:white;
+}
